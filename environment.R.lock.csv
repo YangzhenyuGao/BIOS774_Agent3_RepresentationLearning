@@ -1,0 +1,640 @@
+"Package","Version","LibPath","Built","Repository","RemoteSha","RemoteRepo","RemoteUsername"
+"ade4","1.7-24","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:38 UTC; unix","CRAN",NA,NA,NA
+"afex","1.5-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:55 UTC; unix","CRAN",NA,NA,NA
+"affy","1.90.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:00 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"affyio","1.82.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:04 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"aisdk","1.4.12","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:38 UTC; unix","CRAN",NA,NA,NA
+"amap","0.8-20","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:00 UTC; unix","CRAN",NA,NA,NA
+"annotate","1.90.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:16 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"AnnotationDbi","1.74.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:16 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"AnnotationFilter","1.36.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:24 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"AnnotationHub","4.2.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:42 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"annotatr","1.38.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:19 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"ape","5.8-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:05 UTC; unix","CRAN",NA,NA,NA
+"apeglm","1.34.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:49:52 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"aplot","0.3.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:44 UTC; unix","CRAN",NA,NA,NA
+"argparse","2.3.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:34 UTC; unix","CRAN",NA,NA,NA
+"arrow","26.0.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:56 UTC; unix","CRAN",NA,NA,NA
+"ashr","2.2-63","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:03 UTC; unix","CRAN",NA,NA,NA
+"assertthat","0.2.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:03 UTC; unix","CRAN",NA,NA,NA
+"base64","2.0.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:46:59 UTC; unix","CRAN",NA,NA,NA
+"basilisk","1.24.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:45 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"basilisk.utils","1.24.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:48 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"bayesplot","1.16.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:10 UTC; unix","CRAN",NA,NA,NA
+"bbmle","1.0.26","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:05 UTC; unix","CRAN",NA,NA,NA
+"BCalm","0.99.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:35:06 UTC; unix",NA,"d5164ba4b62107290085de376822fff07c7d40aa","BCalm","kircherlab"
+"bdsmatrix","1.3-7","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:00 UTC; unix","CRAN",NA,NA,NA
+"beanplot","1.3.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:01 UTC; unix","CRAN",NA,NA,NA
+"BiocBaseUtils","1.14.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:33 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocFileCache","3.2.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:07 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocIO","1.22.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:23 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"biocmake","1.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:46:59 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"biomaRt","2.68.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:29 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"biovizBase","1.60.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:29:54 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"bridgesampling","1.2-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:06 UTC; unix","CRAN",NA,NA,NA
+"Brobdingnag","1.3-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:01 UTC; unix","CRAN",NA,NA,NA
+"BSgenome","1.80.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:09 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BSgenome.Hsapiens.UCSC.hg19","1.4.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:55 UTC; unix",NA,NA,NA,NA
+"BSgenome.Hsapiens.UCSC.hg38","1.4.5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:36 UTC; unix",NA,NA,NA,NA
+"bsicons","0.1.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:04 UTC; unix","CRAN",NA,NA,NA
+"bumphunter","1.54.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:08 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"car","3.1-5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:05 UTC; unix","CRAN",NA,NA,NA
+"carData","3.0-6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:32 UTC; unix","CRAN",NA,NA,NA
+"chromVAR","1.34.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:08 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"clusterProfiler","4.20.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:40 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"coda","0.19-4.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:03 UTC; unix","CRAN",NA,NA,NA
+"coin","1.4-6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:50 UTC; unix","CRAN",NA,NA,NA
+"collections","0.3.12","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:05 UTC; unix","CRAN",NA,NA,NA
+"coloc","5.2.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:43 UTC; unix","CRAN",NA,NA,NA
+"colourpicker","1.3.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:10 UTC; unix","CRAN",NA,NA,NA
+"CompQuadForm","1.4.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:42 UTC; unix","CRAN",NA,NA,NA
+"corrplot","0.95","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:41 UTC; unix","CRAN",NA,NA,NA
+"DelayedMatrixStats","1.34.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:12 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"dendextend","1.19.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:08 UTC; unix","CRAN",NA,NA,NA
+"Deriv","4.3.6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:21 UTC; unix","CRAN",NA,NA,NA
+"DescTools","0.99.60","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:28:00 UTC; unix","CRAN",NA,NA,NA
+"DESeq2","1.52.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:13 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"dichromat","2.0-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:27 UTC; unix","CRAN",NA,NA,NA
+"DiffBind","3.22.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:50:34 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"dir.expiry","1.20.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:34 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"DirichletMultinomial","1.54.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:30 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"doBy","4.7.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:28 UTC; unix","CRAN",NA,NA,NA
+"DOSE","4.6.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:17 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"DT","0.34.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:44 UTC; unix","CRAN",NA,NA,NA
+"dygraphs","1.1.1.6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:14 UTC; unix","CRAN",NA,NA,NA
+"e1071","1.7-17","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:37 UTC; unix","CRAN",NA,NA,NA
+"emdbook","1.3.14","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:11 UTC; unix","CRAN",NA,NA,NA
+"enrichit","0.2.7","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:17 UTC; unix","CRAN",NA,NA,NA
+"enrichplot","1.32.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:19 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"enrichR","3.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:37 UTC; unix","CRAN",NA,NA,NA
+"EnsDb.Hsapiens.v86","2.99.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:29 UTC; unix",NA,NA,NA,NA
+"ensembldb","2.36.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:47 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"etrunct","0.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:06 UTC; unix","CRAN",NA,NA,NA
+"Exact","3.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:31 UTC; unix","CRAN",NA,NA,NA
+"expm","1.0-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:06 UTC; unix","CRAN",NA,NA,NA
+"extrafont","0.20","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:43 UTC; unix","CRAN",NA,NA,NA
+"extrafontdb","1.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:05 UTC; unix","CRAN",NA,NA,NA
+"fastmatch","1.1-8","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:36 UTC; unix","CRAN",NA,NA,NA
+"FDb.InfiniumMethylation.hg19","2.2.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:27 UTC; unix",NA,NA,NA,NA
+"fgsea","1.38.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:46 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"fields","18.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:15 UTC; unix","CRAN",NA,NA,NA
+"filelock","1.0.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:35 UTC; unix","CRAN",NA,NA,NA
+"findpython","1.0.9","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:06 UTC; unix","CRAN",NA,NA,NA
+"fontBitstreamVera","0.1.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:21 UTC; unix","CRAN",NA,NA,NA
+"fontLiberation","0.1.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:22 UTC; unix","CRAN",NA,NA,NA
+"fontquiver","0.2.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:58 UTC; unix","CRAN",NA,NA,NA
+"forecast","9.0.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:58 UTC; unix","CRAN",NA,NA,NA
+"forestplot","3.2.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:08 UTC; unix","CRAN",NA,NA,NA
+"Formula","1.2-6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:32 UTC; unix","CRAN",NA,NA,NA
+"fracdiff","1.5-4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:21 UTC; unix","CRAN",NA,NA,NA
+"gamm4","0.3-0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:08 UTC; unix","CRAN",NA,NA,NA
+"gdtools","0.5.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:28 UTC; unix","CRAN",NA,NA,NA
+"geepack","1.3.13","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:07 UTC; unix","CRAN",NA,NA,NA
+"genefilter","1.94.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:49:37 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GenomeInfoDb","1.48.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:18 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GenomicFeatures","1.64.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:28:17 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GEOquery","2.80.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:18 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GGally","2.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:19 UTC; unix","CRAN",NA,NA,NA
+"ggbio","1.60.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"ggdist","3.3.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:55 UTC; unix","CRAN",NA,NA,NA
+"ggforce","0.5.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:46 UTC; unix","CRAN",NA,NA,NA
+"ggfortify","0.4.24","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:08 UTC; unix","CRAN",NA,NA,NA
+"ggfun","0.2.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:53 UTC; unix","CRAN",NA,NA,NA
+"gghalves","0.1.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:36:54 UTC; unix",NA,"e5c3c79e79f13a00795a2a7774794252d1980d86","gghalves","erocoar"
+"ggiraph","0.9.6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:58 UTC; unix","CRAN",NA,NA,NA
+"ggnewscale","0.5.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:08 UTC; unix","CRAN",NA,NA,NA
+"ggplotify","0.1.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:29 UTC; unix","CRAN",NA,NA,NA
+"ggpubr","1.0.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:39 UTC; unix","CRAN",NA,NA,NA
+"ggsci","5.2.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:11 UTC; unix","CRAN",NA,NA,NA
+"ggsignif","0.6.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:12 UTC; unix","CRAN",NA,NA,NA
+"ggstats","0.14.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:09 UTC; unix","CRAN",NA,NA,NA
+"ggtangle","0.1.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:50 UTC; unix","CRAN",NA,NA,NA
+"ggtree","4.2.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:46 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"ghibli","0.3.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:56 UTC; unix","CRAN",NA,NA,NA
+"gld","2.6.8","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:50 UTC; unix","CRAN",NA,NA,NA
+"GO.db","3.23.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:28 UTC; unix",NA,NA,NA,NA
+"GOSemSim","2.38.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:58 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GPArotation","2026.8-2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:10 UTC; unix","CRAN",NA,NA,NA
+"gprofiler2","0.2.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:59 UTC; unix","CRAN",NA,NA,NA
+"graph","1.90.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:30 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GreyListChIP","1.44.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:30 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"gridGraphics","0.5-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:30 UTC; unix","CRAN",NA,NA,NA
+"gson","0.2.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:59 UTC; unix","CRAN",NA,NA,NA
+"Gviz","1.56.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:30:29 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"gwascat","2.44.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:55 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"h5mread","1.4.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:53:37 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"harmony","2.0.5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:14 UTC; unix","CRAN",NA,NA,NA
+"HDF5Array","1.40.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:53:54 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"hdf5r","1.3.16","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:25 UTC; unix","CRAN",NA,NA,NA
+"Hmisc","5.3-0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:03 UTC; unix","CRAN",NA,NA,NA
+"Homo.sapiens","1.3.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:37 UTC; unix",NA,NA,NA,NA
+"htmlTable","2.5.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:22 UTC; unix","CRAN",NA,NA,NA
+"IlluminaHumanMethylation450kanno.ilmn12.hg19","0.6.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:54:47 UTC; unix",NA,NA,NA,NA
+"IlluminaHumanMethylation450kmanifest","0.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:54:46 UTC; unix",NA,NA,NA,NA
+"illuminaio","0.54.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"inline","0.3.21","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:10 UTC; unix","CRAN",NA,NA,NA
+"InteractionSet","1.40.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:44 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"invgamma","1.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:13 UTC; unix","CRAN",NA,NA,NA
+"JASPAR2020","0.99.10","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:13 UTC; unix",NA,NA,NA,NA
+"JASPAR2024","0.99.7","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:43 UTC; unix","Bioconductor 3.21",NA,NA,NA
+"KEGGREST","1.52.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:21 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"languageserver","0.3.21","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:05 UTC; unix","CRAN",NA,NA,NA
+"LDlinkR","1.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:46 UTC; unix","CRAN",NA,NA,NA
+"leidenbase","0.1.37","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:33 UTC; unix","CRAN",NA,NA,NA
+"libcoin","1.0-13","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:05 UTC; unix","CRAN",NA,NA,NA
+"liftOver","1.36.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:30:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"lintr","3.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:15 UTC; unix","CRAN",NA,NA,NA
+"litedown","1.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:30 UTC; unix","CRAN",NA,NA,NA
+"lmerTest","3.2-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:14 UTC; unix","CRAN",NA,NA,NA
+"lmom","3.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:19 UTC; unix","CRAN",NA,NA,NA
+"loo","2.10.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:15 UTC; unix","CRAN",NA,NA,NA
+"lumi","2.64.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:55:30 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"magick","2.9.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:22 UTC; unix","CRAN",NA,NA,NA
+"maps","3.4.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:16 UTC; unix","CRAN",NA,NA,NA
+"markdown","2.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:14 UTC; unix","CRAN",NA,NA,NA
+"mathjaxr","2.0-0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:16 UTC; unix","CRAN",NA,NA,NA
+"mclust","6.1.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:16 UTC; unix","CRAN",NA,NA,NA
+"metadat","1.6-0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:33 UTC; unix","CRAN",NA,NA,NA
+"metafor","5.2-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:18 UTC; unix","CRAN",NA,NA,NA
+"metagenomeSeq","1.54.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:34 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"methylumi","2.58.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:54:47 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"minfi","1.58.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:54:10 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"mixsqp","0.3-54","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:18 UTC; unix","CRAN",NA,NA,NA
+"mnormt","2.1.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:20 UTC; unix","CRAN",NA,NA,NA
+"modeltools","0.2-25","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:24 UTC; unix","CRAN",NA,NA,NA
+"monaLisa","1.18.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:20 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"motifbreakR","2.26.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:31:15 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"MotifDb","1.54.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:17 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"motifmatchr","1.34.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:37 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"motifStack","1.56.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:22 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"mpra","1.34.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:26 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"MPRAnalyze","1.30.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:49 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"multcomp","1.4-32","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:20 UTC; unix","CRAN",NA,NA,NA
+"multtest","2.68.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:21 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"mvtnorm","1.4-2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:34 UTC; unix","CRAN",NA,NA,NA
+"ncvreg","3.16.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:28 UTC; unix","CRAN",NA,NA,NA
+"nleqslv","3.3.7","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:21 UTC; unix","CRAN",NA,NA,NA
+"nor1mix","1.3-3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:22 UTC; unix","CRAN",NA,NA,NA
+"nortest","1.0-4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:23 UTC; unix","CRAN",NA,NA,NA
+"olsrr","0.7.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:40 UTC; unix","CRAN",NA,NA,NA
+"openxlsx","4.2.9","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:30 UTC; unix","CRAN",NA,NA,NA
+"org.Hs.eg.db","3.23.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:42 UTC; unix",NA,NA,NA,NA
+"OrganismDbi","1.54.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:51 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"paran","1.5.6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:24 UTC; unix","CRAN",NA,NA,NA
+"pbkrtest","0.5.5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:55 UTC; unix","CRAN",NA,NA,NA
+"phia","0.3-2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:24 UTC; unix","CRAN",NA,NA,NA
+"pixmap","0.4-14","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:38 UTC; unix","CRAN",NA,NA,NA
+"plotgardener","1.18.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:53:38 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"plotrix","3.8-14","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:26 UTC; unix","CRAN",NA,NA,NA
+"plyranges","1.32.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:40 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"polynom","1.4-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:41 UTC; unix","CRAN",NA,NA,NA
+"preprocessCore","1.74.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"prismatic","1.1.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:44 UTC; unix","CRAN",NA,NA,NA
+"pROC","1.19.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:36 UTC; unix","CRAN",NA,NA,NA
+"ProtGenerics","1.44.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:26 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"proxy","0.4-29","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:44 UTC; unix","CRAN",NA,NA,NA
+"psych","2.6.9","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:46 UTC; unix","CRAN",NA,NA,NA
+"quadprog","1.5-8","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:26 UTC; unix","CRAN",NA,NA,NA
+"QuickJSR","1.11.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:00 UTC; unix","CRAN",NA,NA,NA
+"qvalue","2.44.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:35 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"R.cache","0.17.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:03 UTC; unix","CRAN",NA,NA,NA
+"R.methodsS3","1.8.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:34 UTC; unix","CRAN",NA,NA,NA
+"R.oo","1.27.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:26:22 UTC; unix","CRAN",NA,NA,NA
+"R.utils","2.13.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:41 UTC; unix","CRAN",NA,NA,NA
+"RBGL","1.88.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:01 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"RcppNumerical","0.7-0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:29 UTC; unix","CRAN",NA,NA,NA
+"RcppRoll","0.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:29 UTC; unix","CRAN",NA,NA,NA
+"RcppThread","2.4.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:32:10 UTC; unix","CRAN",NA,NA,NA
+"RCurl","1.98-1.20","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:48 UTC; unix","CRAN",NA,NA,NA
+"regioneR","1.44.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:46 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"remotes","2.5.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:23:50 UTC; unix","CRAN",NA,NA,NA
+"rentrez","1.2.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:30 UTC; unix","CRAN",NA,NA,NA
+"renv","1.3.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:34 UTC; unix","CRAN",NA,NA,NA
+"reshape","0.8.10","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:33 UTC; unix","CRAN",NA,NA,NA
+"restfulr","0.0.17","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:26:00 UTC; unix","CRAN",NA,NA,NA
+"rex","1.2.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:47 UTC; unix","CRAN",NA,NA,NA
+"rhdf5","2.56.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:53:25 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"rhdf5filters","1.24.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:52:57 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"Rhdf5lib","2.0.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:52:43 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"ROC","1.88.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:36 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"rootSolve","1.8.2.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:48 UTC; unix","CRAN",NA,NA,NA
+"rstantools","2.7.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:51 UTC; unix","CRAN",NA,NA,NA
+"rstatix","1.1.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:28 UTC; unix","CRAN",NA,NA,NA
+"Rsubread","2.26.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:51 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"rtracklayer","1.72.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:27:31 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"Rttf2pt1","1.3.14","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:53 UTC; unix","CRAN",NA,NA,NA
+"S4Vectors","0.50.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:00 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"scatterpie","0.2.6","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:53 UTC; unix","CRAN",NA,NA,NA
+"scrime","1.3.7","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:38 UTC; unix","CRAN",NA,NA,NA
+"seqLogo","1.78.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:31 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"SeuratData","0.2.2.9002","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:32:18 UTC; unix",NA,"3e51f44303069b64f5dc4d68e6a3d4a343f55c39","seurat-data","satijalab"
+"SeuratDisk","0.0.0.9021","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:32:39 UTC; unix",NA,"877d4e18ab38c686f5db54f8cd290274ccdbe295","seurat-disk","mojaveazure"
+"shinyjs","2.1.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:38 UTC; unix","CRAN",NA,NA,NA
+"shinythemes","1.2.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:38 UTC; unix","CRAN",NA,NA,NA
+"siggenes","1.86.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:48:52 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"Signac","1.17.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:48:56 UTC; unix","CRAN",NA,NA,NA
+"sm","2.2-6.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:50 UTC; unix","CRAN",NA,NA,NA
+"snpStats","1.62.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:38 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"sparseMatrixStats","1.24.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:39 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"splitstackshape","1.4.8.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:50 UTC; unix","CRAN",NA,NA,NA
+"SQUAREM","2026.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:41 UTC; unix","CRAN",NA,NA,NA
+"stabs","0.7-1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:53 UTC; unix","CRAN",NA,NA,NA
+"StanHeaders","2.39.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:57 UTC; unix","CRAN",NA,NA,NA
+"strawr","0.0.92","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:42 UTC; unix","CRAN",NA,NA,NA
+"styler","1.11.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:14 UTC; unix","CRAN",NA,NA,NA
+"susieR","0.14.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:01 UTC; unix","CRAN",NA,NA,NA
+"systemPipeR","2.18.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:49:04 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"TFBSTools","1.50.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:28:38 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"TFMPvalue","1.0.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:39 UTC; unix","CRAN",NA,NA,NA
+"TH.data","1.1-5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:56 UTC; unix","CRAN",NA,NA,NA
+"threejs","0.3.4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:42 UTC; unix","CRAN",NA,NA,NA
+"tidydr","0.0.7","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:38 UTC; unix","CRAN",NA,NA,NA
+"tidytree","0.4.8","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:21 UTC; unix","CRAN",NA,NA,NA
+"timeDate","4052.112","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:22 UTC; unix","CRAN",NA,NA,NA
+"treeio","1.36.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:56 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"truncnorm","1.0-9","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:42 UTC; unix","CRAN",NA,NA,NA
+"tweenr","2.0.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:25:54 UTC; unix","CRAN",NA,NA,NA
+"TxDb.Hsapiens.UCSC.hg19.knownGene","3.22.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:57 UTC; unix",NA,NA,NA,NA
+"TxDb.Hsapiens.UCSC.hg38.knownGene","3.22.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:15 UTC; unix",NA,NA,NA,NA
+"txdbmaker","1.8.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:11 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"tximeta","1.30.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:29:40 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"UCSC.utils","1.8.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"umap","0.2.10.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:45 UTC; unix","CRAN",NA,NA,NA
+"UpSetR","1.4.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:24:57 UTC; unix","CRAN",NA,NA,NA
+"urca","1.3-4","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:22 UTC; unix","CRAN",NA,NA,NA
+"V8","8.2.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:57 UTC; unix","CRAN",NA,NA,NA
+"VariantAnnotation","1.58.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:29:00 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"VennDiagram","1.8.2","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:00 UTC; unix","CRAN",NA,NA,NA
+"vioplot","0.5.1","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:27:25 UTC; unix","CRAN",NA,NA,NA
+"wateRmelon","2.18.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:56:13 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"Wrench","1.30.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:47:50 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"WriteXLS","6.8.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:01 UTC; unix","CRAN",NA,NA,NA
+"xfun","0.62","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:00 UTC; unix","CRAN",NA,NA,NA
+"XML","3.99-0.25","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:24:46 UTC; unix","CRAN",NA,NA,NA
+"xmlparsedata","1.0.5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:55 UTC; unix","CRAN",NA,NA,NA
+"xplorerr","0.2.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:54 UTC; unix","CRAN",NA,NA,NA
+"xts","0.14.3","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; x86_64-pc-linux-gnu; 2026-11-03 01:47:53 UTC; unix","CRAN",NA,NA,NA
+"yulab.utils","0.2.5","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:25:57 UTC; unix","CRAN",NA,NA,NA
+"zellkonverter","1.22.0","/nas/sycamore/home/gaoyang/R/x86_64-pc-linux-gnu-library/4.6","R 4.6.0; ; 2026-11-03 01:28:06 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"abind","1.4-8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"askpass","1.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"assorthead","1.6.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:00 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"backports","1.5.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"base","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:24:11 UTC; unix",NA,NA,NA,NA
+"base64enc","0.1-6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"beachmat","2.28.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:45:16 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"beeswarm","0.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"BH","1.90.0-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:15 UTC; unix","CRAN",NA,NA,NA
+"bigassertr","0.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"bigparallelr","0.3.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:51 UTC; unix","CRAN",NA,NA,NA
+"bigreadr","0.2.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:36 UTC; unix","CRAN",NA,NA,NA
+"bigsnpr","1.12.21","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:34:59 UTC; unix","CRAN",NA,NA,NA
+"bigsparser","0.7.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:34 UTC; unix","CRAN",NA,NA,NA
+"bigstatsr","1.6.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:33:28 UTC; unix","CRAN",NA,NA,NA
+"bigutilsr","0.3.11","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:33:27 UTC; unix","CRAN",NA,NA,NA
+"Biobase","2.72.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:12 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocGenerics","0.58.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:49 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocManager","1.30.27","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"BiocNeighbors","2.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocParallel","1.46.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:18 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocSingular","1.28.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:28 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"BiocVersion","3.23.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"Biostrings","2.80.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:27 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"bit","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"bit64","4.8.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:54 UTC; unix","CRAN",NA,NA,NA
+"bitops","1.0-9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:27:49 UTC; unix","CRAN",NA,NA,NA
+"blob","1.3.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:27 UTC; unix","CRAN",NA,NA,NA
+"boot","1.3-32","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:25:26 UTC; unix","CRAN",NA,NA,NA
+"brew","1.0-10","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"brio","1.1.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"broom","1.0.13","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:42 UTC; unix","CRAN",NA,NA,NA
+"bslib","0.11.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:00 UTC; unix","CRAN",NA,NA,NA
+"cachem","1.1.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"Cairo","1.7-0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:35 UTC; unix","CRAN",NA,NA,NA
+"callr","3.8.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:22 UTC; unix","CRAN",NA,NA,NA
+"caTools","1.18.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"cellranger","1.1.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:51 UTC; unix","CRAN",NA,NA,NA
+"checkmate","2.3.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:49:11 UTC; unix","CRAN",NA,NA,NA
+"cigarillo","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:50 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"circlize","0.4.18","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:13 UTC; unix","CRAN",NA,NA,NA
+"class","7.3-23","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:32 UTC; unix","CRAN",NA,NA,NA
+"cli","3.6.6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"clipr","0.8.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"clue","0.3-68","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:49 UTC; unix","CRAN",NA,NA,NA
+"cluster","2.1.8.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:32 UTC; unix","CRAN",NA,NA,NA
+"cmdstanr","0.9.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:49:32 UTC; unix","https://stan-dev.r-universe.dev","da99e2ba954658bdad63bffb738c4444c33a4e0e",NA,NA
+"codetools","0.2-20","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"colorspace","2.1-2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:51 UTC; unix","CRAN",NA,NA,NA
+"commonmark","2.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"compiler","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:23:04 UTC; unix",NA,NA,NA,NA
+"ComplexHeatmap","2.28.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:44:15 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"conflicted","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:35 UTC; unix","CRAN",NA,NA,NA
+"cowplot","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:08 UTC; unix","CRAN",NA,NA,NA
+"cpp11","0.5.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"crayon","1.5.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"credentials","2.0.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:14 UTC; unix","CRAN",NA,NA,NA
+"crosstalk","1.2.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:30 UTC; unix","CRAN",NA,NA,NA
+"curl","7.1.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:17 UTC; unix","CRAN",NA,NA,NA
+"dada2","1.40.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:45 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"data.table","1.18.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:19 UTC; unix","CRAN",NA,NA,NA
+"datasets","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:23:53 UTC; unix",NA,NA,NA,NA
+"DBI","1.3.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"dbplyr","2.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:41 UTC; unix","CRAN",NA,NA,NA
+"DelayedArray","0.38.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:44:56 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"deldir","2.0-4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"DEoptimR","1.2-0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"desc","1.4.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"devtools","2.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:36:01 UTC; unix","CRAN",NA,NA,NA
+"diffobj","0.3.6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:42 UTC; unix","CRAN",NA,NA,NA
+"digest","0.6.39","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"distributional","0.7.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:40 UTC; unix","CRAN",NA,NA,NA
+"DNAcopy","1.86.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:48 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"doMPI","0.2.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:22 UTC; unix","CRAN",NA,NA,NA
+"doParallel","1.0.17","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:56 UTC; unix","CRAN",NA,NA,NA
+"doRNG","1.8.6.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:06 UTC; unix","CRAN",NA,NA,NA
+"dotCall64","1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"downlit","0.4.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:27 UTC; unix","CRAN",NA,NA,NA
+"dplyr","1.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:56 UTC; unix","CRAN",NA,NA,NA
+"dqrng","0.4.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:30 UTC; unix","CRAN",NA,NA,NA
+"dtplyr","1.3.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:20 UTC; unix","CRAN",NA,NA,NA
+"edgeR","4.10.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:29 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"ellipsis","0.3.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"EnhancedVolcano","1.30.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"evaluate","1.0.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"fansi","1.0.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"farver","2.1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"fastDummies","1.7.6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:27 UTC; unix","CRAN",NA,NA,NA
+"fastmap","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"ff","4.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:12 UTC; unix","CRAN",NA,NA,NA
+"fitdistrplus","1.2-6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:13 UTC; unix","CRAN",NA,NA,NA
+"flock","0.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:26 UTC; unix","CRAN",NA,NA,NA
+"FNN","1.1.4.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"fontawesome","0.5.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:30 UTC; unix","CRAN",NA,NA,NA
+"forcats","1.0.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:52 UTC; unix","CRAN",NA,NA,NA
+"foreach","1.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:41 UTC; unix","CRAN",NA,NA,NA
+"foreign","0.8-91","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"formatR","1.14","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"formula.tools","1.7.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:59 UTC; unix","CRAN",NA,NA,NA
+"fs","2.1.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:13 UTC; unix","CRAN",NA,NA,NA
+"futile.logger","1.4.9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:08 UTC; unix","CRAN",NA,NA,NA
+"futile.options","1.0.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"future","1.70.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:55 UTC; unix","CRAN",NA,NA,NA
+"future.apply","1.20.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:24 UTC; unix","CRAN",NA,NA,NA
+"gargle","1.6.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:32 UTC; unix","CRAN",NA,NA,NA
+"gdsfmt","1.48.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:49 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"generics","0.1.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"GENESIS","2.42.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:47:31 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GenomicAlignments","1.48.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:45:38 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"GenomicRanges","1.64.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:44:21 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"gert","2.3.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:46 UTC; unix","CRAN",NA,NA,NA
+"GetoptLong","1.1.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:03 UTC; unix","CRAN",NA,NA,NA
+"ggbeeswarm","0.7.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:00 UTC; unix","CRAN",NA,NA,NA
+"ggplot2","4.0.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:34 UTC; unix","CRAN",NA,NA,NA
+"ggrastr","1.0.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:13 UTC; unix","CRAN",NA,NA,NA
+"ggrepel","0.9.8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:07 UTC; unix","CRAN",NA,NA,NA
+"ggridges","0.5.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:08 UTC; unix","CRAN",NA,NA,NA
+"gh","1.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:44 UTC; unix","CRAN",NA,NA,NA
+"gitcreds","0.1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:27:52 UTC; unix","CRAN",NA,NA,NA
+"glmnet","5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:03 UTC; unix","CRAN",NA,NA,NA
+"GlobalOptions","0.1.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"globals","0.19.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"glue","1.8.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"goftest","1.2-3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"googledrive","2.1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:53 UTC; unix","CRAN",NA,NA,NA
+"googlesheets4","1.1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:03 UTC; unix","CRAN",NA,NA,NA
+"gplots","3.3.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:47 UTC; unix","CRAN",NA,NA,NA
+"graphics","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:23:36 UTC; unix",NA,NA,NA,NA
+"grDevices","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:23:30 UTC; unix",NA,NA,NA,NA
+"grid","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:03 UTC; unix",NA,NA,NA,NA
+"gridExtra","2.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:40 UTC; unix","CRAN",NA,NA,NA
+"gtable","0.3.6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:25 UTC; unix","CRAN",NA,NA,NA
+"gtools","3.9.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"GWASExactHW","1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"GWASTools","1.58.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:46:40 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"haven","2.5.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:34:08 UTC; unix","CRAN",NA,NA,NA
+"here","1.0.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:41 UTC; unix","CRAN",NA,NA,NA
+"highr","0.12","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:53 UTC; unix","CRAN",NA,NA,NA
+"hms","1.1.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:27 UTC; unix","CRAN",NA,NA,NA
+"htmltools","0.5.9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:12 UTC; unix","CRAN",NA,NA,NA
+"htmlwidgets","1.6.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:32 UTC; unix","CRAN",NA,NA,NA
+"httpuv","1.6.17","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:28 UTC; unix","CRAN",NA,NA,NA
+"httr","1.4.8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:15 UTC; unix","CRAN",NA,NA,NA
+"httr2","1.2.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:29 UTC; unix","CRAN",NA,NA,NA
+"hwriter","1.3.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"ica","1.0-3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"ids","1.0.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:14 UTC; unix","CRAN",NA,NA,NA
+"igraph","2.3.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:44 UTC; unix","CRAN",NA,NA,NA
+"ini","0.3.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"interp","1.1-6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:49 UTC; unix","CRAN",NA,NA,NA
+"IRanges","2.46.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:34 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"irlba","2.3.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"isoband","0.3.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"iterators","1.0.14","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"jomo","2.7-6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:50 UTC; unix","CRAN",NA,NA,NA
+"jpeg","0.1-11","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"jquerylib","0.1.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:30 UTC; unix","CRAN",NA,NA,NA
+"jsonlite","2.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"KernSmooth","2.23-26","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"knitr","1.51","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:08 UTC; unix","CRAN",NA,NA,NA
+"labeling","0.4.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"lambda.r","1.2.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:00 UTC; unix","CRAN",NA,NA,NA
+"later","1.4.8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:30 UTC; unix","CRAN",NA,NA,NA
+"lattice","0.22-9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"latticeExtra","0.6-31","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:44:29 UTC; unix","CRAN",NA,NA,NA
+"lazyeval","0.2.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:13 UTC; unix","CRAN",NA,NA,NA
+"lifecycle","1.0.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"limma","3.68.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:05 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"listenv","0.10.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"lme4","2.0-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:56 UTC; unix","CRAN",NA,NA,NA
+"lmtest","0.9-40","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:53 UTC; unix","CRAN",NA,NA,NA
+"locfit","1.5-9.12","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:50 UTC; unix","CRAN",NA,NA,NA
+"logistf","1.26.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:10 UTC; unix","CRAN",NA,NA,NA
+"lubridate","1.9.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:50 UTC; unix","CRAN",NA,NA,NA
+"magrittr","2.0.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"MASS","7.3-65","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"Matrix","1.7-5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:33 UTC; unix","CRAN",NA,NA,NA
+"MatrixGenerics","1.24.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"MatrixModels","0.5-4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"matrixStats","1.5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"memoise","2.0.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:23 UTC; unix","CRAN",NA,NA,NA
+"methods","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:23:54 UTC; unix",NA,NA,NA,NA
+"mgcv","1.9-4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:25:11 UTC; unix","CRAN",NA,NA,NA
+"mice","3.19.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:45:40 UTC; unix","CRAN",NA,NA,NA
+"mime","0.13","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"miniUI","0.1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:56 UTC; unix","CRAN",NA,NA,NA
+"minqa","1.2.8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"mitml","0.4-5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:45:25 UTC; unix","CRAN",NA,NA,NA
+"modelr","0.1.11","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:56 UTC; unix","CRAN",NA,NA,NA
+"nabor","0.5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:34 UTC; unix","CRAN",NA,NA,NA
+"nlme","3.1-169","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:32 UTC; unix","CRAN",NA,NA,NA
+"nloptr","2.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:44 UTC; unix","CRAN",NA,NA,NA
+"nnet","7.3-20","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"numDeriv","2016.8-1.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"openssl","2.4.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:46 UTC; unix","CRAN",NA,NA,NA
+"operator.tools","1.6.3.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"ordinal","2025.12-29","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:00 UTC; unix","CRAN",NA,NA,NA
+"otel","0.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"pak","0.10.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:18 UTC; unix","CRAN",NA,NA,NA
+"pan","1.9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"parallel","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:10 UTC; unix",NA,NA,NA,NA
+"parallelly","1.47.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"patchwork","1.3.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:08 UTC; unix","CRAN",NA,NA,NA
+"pbapply","1.7-4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"pheatmap","1.0.13","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"pillar","1.11.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:28 UTC; unix","CRAN",NA,NA,NA
+"pkgbuild","1.4.8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:38 UTC; unix","CRAN",NA,NA,NA
+"pkgconfig","2.0.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"pkgdown","2.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:35:50 UTC; unix","CRAN",NA,NA,NA
+"pkgload","1.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:51 UTC; unix","CRAN",NA,NA,NA
+"plotly","4.12.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:48 UTC; unix","CRAN",NA,NA,NA
+"plyr","1.8.9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:28 UTC; unix","CRAN",NA,NA,NA
+"png","0.1-9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"polyclip","1.10-7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:22 UTC; unix","CRAN",NA,NA,NA
+"posterior","1.7.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:49:22 UTC; unix","https://stan-dev.r-universe.dev","540cc15f7f3a81913f2a02a0ac04700e0d352a20",NA,NA
+"praise","1.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"prettyunits","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"processx","3.9.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:57 UTC; unix","CRAN",NA,NA,NA
+"profvis","0.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:33:35 UTC; unix","CRAN",NA,NA,NA
+"progress","1.2.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:33 UTC; unix","CRAN",NA,NA,NA
+"progressr","0.19.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:55 UTC; unix","CRAN",NA,NA,NA
+"promises","1.5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:13 UTC; unix","CRAN",NA,NA,NA
+"ps","1.9.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:17 UTC; unix","CRAN",NA,NA,NA
+"purrr","1.2.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:29 UTC; unix","CRAN",NA,NA,NA
+"pwalign","1.8.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:51 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"quantreg","6.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:08 UTC; unix","CRAN",NA,NA,NA
+"quantsmooth","1.78.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:26 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"R6","2.6.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"ragg","1.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:40 UTC; unix","CRAN",NA,NA,NA
+"RANN","2.6.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"rappdirs","0.3.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"rbibutils","2.4.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:51 UTC; unix","CRAN",NA,NA,NA
+"rcmdcheck","1.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:50 UTC; unix","CRAN",NA,NA,NA
+"RColorBrewer","1.1-3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"Rcpp","1.1.1-1.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"RcppAnnoy","0.0.23","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"RcppArmadillo","15.2.7-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:44 UTC; unix","CRAN",NA,NA,NA
+"RcppEigen","0.3.4.0.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:32 UTC; unix","CRAN",NA,NA,NA
+"RcppHNSW","0.7.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"RcppML","0.3.7.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"RcppParallel","5.1.11-2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:02 UTC; unix","CRAN",NA,NA,NA
+"RcppProgress","0.4.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"RcppTOML","0.2.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"Rdpack","2.6.6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:22 UTC; unix","CRAN",NA,NA,NA
+"readr","2.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:33:22 UTC; unix","CRAN",NA,NA,NA
+"readxl","1.5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:57 UTC; unix","CRAN",NA,NA,NA
+"reformulas","0.4.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:43:28 UTC; unix","CRAN",NA,NA,NA
+"rematch","2.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"rematch2","2.1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:50 UTC; unix","CRAN",NA,NA,NA
+"reprex","2.1.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:32 UTC; unix","CRAN",NA,NA,NA
+"reshape2","1.4.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:27 UTC; unix","CRAN",NA,NA,NA
+"reticulate","1.46.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:59 UTC; unix","CRAN",NA,NA,NA
+"RhpcBLASctl","0.23-42","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:26 UTC; unix","CRAN",NA,NA,NA
+"Rhtslib","3.8.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:56 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"rjson","0.2.23","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"rlang","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"rmarkdown","2.31","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:23 UTC; unix","CRAN",NA,NA,NA
+"rmio","0.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:49 UTC; unix","CRAN",NA,NA,NA
+"Rmpi","0.7-3.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:18 UTC; unix","CRAN",NA,NA,NA
+"rngtools","1.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:54 UTC; unix","CRAN",NA,NA,NA
+"robustbase","0.99-7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:38 UTC; unix","CRAN",NA,NA,NA
+"ROCR","1.0-12","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:04 UTC; unix","CRAN",NA,NA,NA
+"roptim","0.1.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:20 UTC; unix","CRAN",NA,NA,NA
+"roxygen2","8.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:08 UTC; unix","CRAN",NA,NA,NA
+"rpart","4.1.27","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"rprojroot","2.1.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"Rsamtools","2.28.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:53 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"RSpectra","0.16-2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:34 UTC; unix","CRAN",NA,NA,NA
+"RSQLite","3.53.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:07 UTC; unix","CRAN",NA,NA,NA
+"rstudioapi","0.18.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"rsvd","1.0.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"Rtsne","0.17","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"runonce","0.3.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:08 UTC; unix","CRAN",NA,NA,NA
+"rversions","3.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:01 UTC; unix","CRAN",NA,NA,NA
+"rvest","1.0.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:35 UTC; unix","CRAN",NA,NA,NA
+"S4Arrays","1.12.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:13 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"S4Vectors","0.50.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:43:11 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"S7","0.2.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"sandwich","3.1-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"sass","0.4.10","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:33 UTC; unix","CRAN",NA,NA,NA
+"ScaledMatrix","1.20.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:45:16 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"scales","1.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"scater","1.40.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:47:14 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"scattermore","1.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:07 UTC; unix","CRAN",NA,NA,NA
+"sctransform","0.4.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:37 UTC; unix","CRAN",NA,NA,NA
+"scuttle","1.22.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:29 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"selectr","0.5-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:27 UTC; unix","CRAN",NA,NA,NA
+"SeqArray","1.52.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:39 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"Seqinfo","1.2.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:44:13 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"SeqVarTools","1.50.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:47:13 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"sessioninfo","1.2.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:09 UTC; unix","CRAN",NA,NA,NA
+"Seurat","5.5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:35:02 UTC; unix","CRAN",NA,NA,NA
+"SeuratObject","5.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:36 UTC; unix","CRAN",NA,NA,NA
+"shape","1.4.6.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"shiny","1.13.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:33:35 UTC; unix","CRAN",NA,NA,NA
+"ShortRead","1.70.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:10 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"SingleCellExperiment","1.34.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:45:38 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"sitmo","2.0.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"snow","0.4-4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"SNPRelate","1.46.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:46:38 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"sourcetools","0.1.7-2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"sp","2.2-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"spam","2.11-4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:29 UTC; unix","CRAN",NA,NA,NA
+"SparseArray","1.12.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:27 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"SparseM","1.84-2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"spatial","7.3-18","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:26 UTC; unix","CRAN",NA,NA,NA
+"spatstat.data","3.1-9","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:52 UTC; unix","CRAN",NA,NA,NA
+"spatstat.explore","3.8-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:59 UTC; unix","CRAN",NA,NA,NA
+"spatstat.geom","3.8-1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:21 UTC; unix","CRAN",NA,NA,NA
+"spatstat.random","3.5-0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:25 UTC; unix","CRAN",NA,NA,NA
+"spatstat.sparse","3.2-0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:51 UTC; unix","CRAN",NA,NA,NA
+"spatstat.univar","3.2-0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:51 UTC; unix","CRAN",NA,NA,NA
+"spatstat.utils","3.2-3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"splines","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:08 UTC; unix",NA,NA,NA,NA
+"statmod","1.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"stats","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:23:40 UTC; unix",NA,NA,NA,NA
+"stats4","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:24:08 UTC; unix",NA,NA,NA,NA
+"stringi","1.8.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:53 UTC; unix","CRAN",NA,NA,NA
+"stringr","1.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:32:22 UTC; unix","CRAN",NA,NA,NA
+"SummarizedExperiment","1.42.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:45:16 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"survival","3.8-6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:25:11 UTC; unix","CRAN",NA,NA,NA
+"sys","3.4.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:27:50 UTC; unix","CRAN",NA,NA,NA
+"systemfonts","1.3.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:28 UTC; unix","CRAN",NA,NA,NA
+"tcltk","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:24:09 UTC; unix",NA,NA,NA,NA
+"tensor","1.5.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:06 UTC; unix","CRAN",NA,NA,NA
+"tensorA","0.36.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:49:10 UTC; unix","CRAN",NA,NA,NA
+"testthat","3.3.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:09 UTC; unix","CRAN",NA,NA,NA
+"textshaping","1.0.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:22 UTC; unix","CRAN",NA,NA,NA
+"tibble","3.3.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:40 UTC; unix","CRAN",NA,NA,NA
+"tidyr","1.3.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:32:28 UTC; unix","CRAN",NA,NA,NA
+"tidyselect","1.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:27 UTC; unix","CRAN",NA,NA,NA
+"tidyverse","2.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:35:47 UTC; unix","CRAN",NA,NA,NA
+"timechange","0.4.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:41 UTC; unix","CRAN",NA,NA,NA
+"tinytex","0.59","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:53 UTC; unix","CRAN",NA,NA,NA
+"tools","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:23:04 UTC; unix",NA,NA,NA,NA
+"triebeard","0.4.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:27 UTC; unix","CRAN",NA,NA,NA
+"tximport","1.40.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:47 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"tzdb","0.5.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:41 UTC; unix","CRAN",NA,NA,NA
+"ucminf","1.2.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:42:47 UTC; unix","CRAN",NA,NA,NA
+"urlchecker","1.0.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:48 UTC; unix","CRAN",NA,NA,NA
+"urltools","1.7.3.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:26 UTC; unix","CRAN",NA,NA,NA
+"usethis","3.2.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:31:53 UTC; unix","CRAN",NA,NA,NA
+"utf8","1.2.6","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"utils","4.6.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:23:24 UTC; unix",NA,NA,NA,NA
+"uuid","1.2-2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:43 UTC; unix","CRAN",NA,NA,NA
+"uwot","0.2.4","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:33:27 UTC; unix","CRAN",NA,NA,NA
+"vctrs","0.7.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:31 UTC; unix","CRAN",NA,NA,NA
+"vipor","0.4.7","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"viridis","0.6.5","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:42:48 UTC; unix","CRAN",NA,NA,NA
+"viridisLite","0.4.3","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"vroom","1.7.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:31:54 UTC; unix","CRAN",NA,NA,NA
+"waldo","0.6.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"whisker","0.4.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"withr","3.0.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"xfun","0.58","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"xml2","1.5.2","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:16 UTC; unix","CRAN",NA,NA,NA
+"xopen","1.0.1","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:30:21 UTC; unix","CRAN",NA,NA,NA
+"xtable","1.8-8","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; ; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"XVector","0.52.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:44:13 UTC; unix","Bioconductor 3.23",NA,NA,NA
+"yaml","2.3.12","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA
+"zip","3.0.0","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:30:11 UTC; unix","CRAN",NA,NA,NA
+"zoo","1.8-15","/nas/sycamore/apps/r/4.6.0/lib64/R/library","R 4.6.0; x86_64-pc-linux-gnu; 2026-06-11 12:29:07 UTC; unix","CRAN",NA,NA,NA

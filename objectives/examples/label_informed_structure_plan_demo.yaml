@@ -1,0 +1,59 @@
+objective_id: label_informed_structure_plan_demo
+original_text: 'Label-informed reference objective: training cell-type labels may
+  be used; plan only.'
+objective_types:
+- cell_state_structure
+- cross_modal_alignment
+- cross_modal_prediction
+target_variable: celltype
+label_source_and_quality:
+  quality: curated
+  source: Satija lab FixFlip annotations
+  caveat: Manual annotation of WNN clusters; WNN has a structural advantage.
+allowed_supervision: train_labels
+modalities_required:
+- rna
+- atac
+unit_of_analysis: cell
+downstream_tasks:
+- classification
+- clustering
+- retrieval
+- cross_modal_prediction
+primary_metrics:
+- macro_f1
+- balanced_accuracy
+secondary_metrics:
+- ari
+- nmi
+- balanced_accuracy
+- foscttm
+- cross_modal_auprc
+- neighborhood_overlap
+inapplicable_metrics:
+  c_index: No survival endpoint; single healthy donor.
+clinical_inputs_and_exclusions: {}
+sensitivity_analyses:
+- coarse_labels
+- depth_confounding
+- modality_ablation
+- seed_stability
+compute_budget:
+  gpu_hours_cap: 48.0
+  concurrent_gpus: 2
+  pilot_seconds: 600
+  pilot_epochs: 50
+  final_epochs: 150
+  seeds:
+  - 774
+  - 775
+  - 776
+  max_shortlist: 2
+prohibited_uses:
+- Single-donor cell-level results do not support donor generalization.
+- Agreement with WNN-derived labels is not independent evidence of biological superiority
+  to WNN.
+parser_mode: structured
+parser_confidence: 1.0
+ambiguities: []
+clarification_needed: false

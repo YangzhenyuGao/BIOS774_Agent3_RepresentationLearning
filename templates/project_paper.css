@@ -1,0 +1,36 @@
+@page { size: A4; margin: 17mm 20mm 17mm; @bottom-center { content: counter(page); font-size: 8pt; } }
+body { font-family: 'DejaVu Serif', serif; font-size: 9.5pt; line-height: 1.2; color: #111; }
+.paperpage { break-after: page; }
+.submission-links { font-family: 'DejaVu Sans', sans-serif; font-size: 8pt; line-height: 1.18; margin-bottom: 2mm; padding-bottom: 1.4mm; border-bottom: .5pt solid #999; break-inside: avoid; }
+.submission-links p { margin: .5mm 0; text-align: left; }
+.submission-links a { color: #174c78; text-decoration: underline; }
+.title { font-size: 16pt; line-height: 1.12; text-align: center; border-top: 2pt solid #111; border-bottom: .7pt solid #111; padding: 3mm 0; margin: 0 0 2mm; }
+.author { text-align: center; font-size: 9pt; margin-bottom: 3mm; }
+h1 { font-size: 13pt; margin: 0 0 3mm; }
+h2 { font-size: 11pt; margin: 3.2mm 0 1.6mm; break-after: avoid; }
+h3 { font-size: 9.7pt; margin: 2.5mm 0 1mm; break-after: avoid; }
+p { margin: 1.6mm 0; text-align: justify; }
+.abstract { margin: 0 6mm 3mm; font-size: 9pt; }
+.abstract h2 { text-align: center; font-size: 10pt; margin-top: 1mm; }
+table { border-collapse: collapse; width: 100%; font-size: 8pt; line-height: 1.15; margin: 2mm 0 1mm; }
+thead { display: table-header-group; }
+th { border-top: .9pt solid #111; border-bottom: .5pt solid #111; padding: 1.1mm 1.1mm; text-align: left; font-weight: bold; }
+td { padding: 1mm 1.1mm; vertical-align: top; }
+tbody tr:last-child td { border-bottom: .8pt solid #111; }
+tr { break-inside: avoid; }
+.selected { font-weight: bold; background: #f0f0f0; }
+.num { white-space: nowrap; text-align: right; }
+.caption { font-size: 7.8pt; line-height: 1.18; text-align: left; margin: 1mm 0 2mm; }
+.architecture { width: 100%; display: block; }
+.figure { break-inside: avoid; }
+.modality { float: right; width: 82mm; margin: 0 0 2mm 4mm; }
+.modality img { width: 100%; }
+.clear { clear: both; }
+.verdict { border-left: 1.8pt solid #333; padding-left: 2mm; }
+.references { break-before: page; }
+.references ol { padding-left: 5mm; font-size: 8pt; line-height: 1.22; }
+.references li { margin: 2mm 0; break-inside: avoid; }
+a { color: #111; text-decoration: none; overflow-wrap: anywhere; }
+.appendix { break-before: page; }
+.small { font-size: 8pt; }
+code { font-family: 'DejaVu Sans Mono', monospace; font-size: 7pt; overflow-wrap: anywhere; }

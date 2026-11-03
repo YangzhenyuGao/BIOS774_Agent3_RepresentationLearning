@@ -1,0 +1,187 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{{ css }}</style></head><body>
+<div class="paperpage">
+<div class="submission-links">
+<p><b>Code and workflow:</b> <a href="{{ publication.repository }}">{{ publication.repository|replace('https://', '') }}</a></p>
+<p><b>Study reports:</b> {% for study in publication.studies %}<a href="{{ study.url }}">{{ study.title }}</a>{% if not loop.last %} &nbsp;·&nbsp; {% endif %}{% endfor %}</p>
+</div>
+<h1 class="title">An Auditable Agent for Multimodal Biomedical<br>Representation Learning</h1>
+<div class="author">Yangzhenyu Gao · BIOS 774 Project 3</div>
+<div class="abstract"><h2>Abstract</h2>
+<p>We present a rule-based agent that profiles paired modalities, chooses preprocessing and learning methods, runs validation pilots, freezes models and generates source-linked reports.
+For PBMC RNA–ATAC, contrastive learning improves retrieval but reduces clustering agreement and adds no convincing accessibility-prediction benefit.
+For breast histology and clinical data, a latent probe reaches macro-F1 {{ c.fusion_late_f1 }}, but gains depend on receptor covariates and the native head is weak.
+The experiments demonstrate reproducible automation while exposing incomplete objective enforcement, inadequate convergence auditing and narrow foundation-model comparisons.
+They do not establish generally superior multimodal representations.</p></div>
+<h2>1 &nbsp; System design and agent decisions</h2>
+<p>The task is to decide <em>how</em> modalities should be integrated, rather than replay a fixed pipeline. Typed data and objective specifications encode
+modality type, sparsity, pairing unit, permitted supervision, downstream tasks and forbidden inputs. A deterministic registry supplies genuine adapters;
+validation evidence selects a shortlist, and saved test evidence supports a conditional integration verdict. The reproducible core uses rules and
+Jinja2/WeasyPrint reports, not an external LLM.</p>
+<div class="figure"><img class="architecture" src="{{ architecture }}"><p class="caption"><b>Figure 1.</b> One orchestration graph serves both applications.
+Content hashes, fit-scope records and failure receipts accompany every stage. Auditability does not imply that the implemented acceptance criteria fully capture the objective.</p></div>
+<p><b>RNA + ATAC.</b> Exactly paired PBMC cells from one healthy donor [1] trigger training-fitted RNA normalization/HVG/PCA and ATAC TF-IDF/LSI;
+MultiVI receives raw expression counts and binary accessibility. WNN, MultiVI, Gaussian MOFA+, self-supervised feature-dropout learning and paired InfoNCE
+are eligible [2,5–8]. QC retains {{ c.pbmc_n }} cells ({{ c.pbmc_split|join('/') }} train/validation/test).
+FixFlip cell types fit downstream probes, never the primary representation; they derive from WNN annotations [14].</p>
+<p><b>Histology + clinical.</b> TCGA-BRCA diagnostic slides are grouped by patient [3,4]. Tissue/QC filtering and physical-resolution tiling precede
+frozen patch encoders and attention MIL. Training-fitted clinical inputs are age, stage, histology and ER/PR/HER2 status, with missingness indicators.
+Four-class RNA-derived PAM50 is the target; molecular target fields, outcomes and treatment variables are excluded from inputs. Labels may train supervised
+fusion; image–table contrastive learning and actual local CONCH-Z tower tuning are alternative arms [9–13].
+The cohort contains {{ c.primary_slides }} primary slides from {{ c.primary_slide_patients }} patients, with {{ c.labeled_n }} four-class labels.</p>
+<h2>2 &nbsp; Selection and evaluation protocol</h2>
+<p>Patient/cell splits precede fitted transformations; every patient's slides remain together. Small validation grids tune the same standardized logistic
+and kNN probes across representations. An epsilon-Pareto rule over declared primary metrics, practical-equivalence filtering and simplicity select at most
+two candidates for tuning. Final models are frozen before held-out evaluation. Classification, clustering, alignment, masking, stability and technical
+confounding remain separate evidence categories; paired bootstrap intervals quantify test differences.</p>
+<p><b>What this guarantees.</b> The protocol controls leakage and makes failures traceable. It does not guarantee sufficient optimization, equal effective
+data access or correct translation of a prose objective into hard acceptance criteria. The results below distinguish these limitations from successful execution.</p>
+</div>
+<div class="paperpage">
+<h1>3 &nbsp; PBMC: alignment improves; cell-type structure does not</h1>
+<table><thead><tr><th>Representation</th><th class="num">Validation F1</th><th class="num">Val. R@10</th><th class="num">Test F1</th><th class="num">ARI</th><th class="num">NMI</th></tr></thead><tbody>
+{% for row in pbmc %}<tr{% if row.selected %} class="selected"{% endif %}><td>{{ row.name }}</td><td class="num">{{ row.validation }}</td><td class="num">{{ row.retrieval }}</td><td class="num">{{ row.test }}</td><td class="num">{{ row.ari }}</td><td class="num">{{ row.nmi }}</td></tr>{% endfor %}
+</tbody></table>
+<p class="caption"><b>Table 1.</b> Complete PBMC pilot comparison and available frozen test results. Validation is mean ± population SD over three declared
+seeds for learned candidates; reference runs are single fits. Tests use the predeclared representative seed and common logistic probe.
+“—” means not advanced to final evaluation, not a measured poor test result. Three PCA/LSI reference retrieval entries share one ridge mapping.</p>
+<h3>3.1 &nbsp; Objective satisfaction differs from selection</h3>
+<p>The contrastive model traded slightly lower validation F1 within the predeclared equivalence margin for better retrieval. Test symmetric paired recall@10 rises from {{ c.ridge_r10 }} for the common PCA→LSI ridge reference to
+{{ c.clip_r10 }}: difference {{ c.retrieval_delta[0] }}, 95% CI [{{ c.retrieval_delta[1] }}, {{ c.retrieval_delta[2] }}]. Macro-F1 gains remain uncertain:
+{{ c.p_single_delta[0] }} versus RNA alone (95% CI [{{ c.p_single_delta[1] }}, {{ c.p_single_delta[2] }}]) and {{ c.p_concat_delta[0] }} versus concatenation
+([{{ c.p_concat_delta[1] }}, {{ c.p_concat_delta[2] }}]). Leiden ARI is <b>{{ c.clip_ari }}</b>, below RNA PCA (<b>{{ c.rna_ari }}</b>) and concatenation
+(<b>{{ c.concat_ari }}</b>). NMI is mixed (Table 1), improving over RNA alone but remaining below concatenation; it does not resolve the ARI regression.</p>
+<p>The objective requested structure at least as good as the better single modality. The selector made classification F1 and retrieval primary, leaving ARI
+secondary; it did not enforce structural noninferiority. The full PBMC objective was therefore <b>not met</b>, despite successful selection and a frozen
+automated “integrate with caution” flag. This is an objective-to-criterion translation failure.</p>
+<h3>3.2 &nbsp; Expression-to-accessibility prediction adds little</h3>
+<table><thead><tr><th>RNA→ATAC predictor</th><th class="num">Cell AUROC</th><th class="num">Cell AUPRC</th><th class="num">Peak AUPRC</th></tr></thead><tbody>
+{% for row in cross_rows %}<tr><td>{{ row.name }}</td>{% for v in row['values'] %}<td class="num">{{ v }}</td>{% endfor %}</tr>{% endfor %}
+</tbody></table>
+<p class="caption"><b>Table 2.</b> Existing held-out predictions; target ATAC input is masked. Cell and peak AUPRC average different ranking problems.</p>
+<p>The learned RNA tower barely changes prediction relative to RNA PCA, while training peak frequency has the highest per-cell AUPRC. A small per-peak
+AUPRC increase does not establish useful incremental prediction; no uncertainty estimate was saved for that increase. The row originally labeled as the
+ATAC-only model's decoder actually calls its <em>RNA-side</em> encoder. RNA-only, ATAC-named and concatenation decoder rows are identical to RNA PCA and
+are collapsed here. They are neither independent evidence nor ATAC-only predictors. Their retrieval scores also reuse one training-fitted ridge map;
+this report counts <b>one alignment reference</b>, not three corroborating comparisons.</p>
+<h3>3.3 &nbsp; Weak pilots do not establish inferior methods</h3>
+<p>MultiVI was capped at {{ c.multivi_max_epochs }} epochs with {{ c.multivi_kl_warmup_epochs }} epochs of KL warmup. Worker logs reached the cap,
+but saved curves are empty, preventing a convergence audit. Framework-default early stopping was disabled, although a custom validation callback exists.
+The API default is 500 epochs [15]: this is a short pilot, not a fair converged-method ranking. WNN uses a muon graph, diffusion coordinates and kNN
+out-of-sample interpolation. Training top-15 graph overlap with Seurat WNN is only {{ c.wnn_overlap }}. Compression, graph differences and extrapolation
+can weaken this adapter; its F1 does not show canonical WNN is inferior. WNN-derived expert labels would otherwise favor a closely matched native analysis,
+but do not guarantee that this different inductive embedding preserves their structure.</p>
+</div>
+<div class="paperpage">
+<h1>4 &nbsp; TCGA: receptor-dependent utility and a weak native head</h1>
+<table><thead><tr><th>Candidate / feature source</th><th class="num">Validation macro-F1</th><th class="num">Frozen test F1</th></tr></thead><tbody>
+{% for row in tcga %}<tr{% if row.selected %} class="selected"{% endif %}><td>{{ row.name }}</td><td class="num">{{ row.validation }}</td><td class="num">{{ row.test }}</td></tr>{% endfor %}
+</tbody></table>
+<p class="caption"><b>Table 3.</b> All executed TCGA pilot strategies, including both foundation-model tuning arms. Mean ± SD is over three seeds for neural
+methods; frozen mean/clinical/concatenation references use one fit. MIL, fusion, feature-pair contrastive and SimCLR use UNI2-h features; tower tuning uses
+CONCH-Z. Test F1 is always a common logistic-probe score. Unselected candidates were not opened on the test set.</p>
+<h3>4.1 &nbsp; Receptor dependence limits the integration claim</h3>
+<p>The selected representation concatenates attention-MIL image and clinical-MLP latents. Its probe F1 is {{ c.fusion_late_f1 }}, against {{ c.abmil_f1 }}
+for image-only MIL and {{ c.concatenation_f1 }} for concatenation. Paired differences remain uncertain: {{ c.t_single_delta[0] }} versus MIL
+(95% CI [{{ c.t_single_delta[1] }}, {{ c.t_single_delta[2] }}]) and {{ c.t_concat_delta[0] }} versus concatenation
+([{{ c.t_concat_delta[1] }}, {{ c.t_concat_delta[2] }}]).</p>
+<table><thead><tr><th>Existing same-test-set comparison</th><th class="num">Macro-F1</th><th class="num">Her2 recall</th></tr></thead><tbody>
+<tr><td>Image-only attention MIL + probe</td><td class="num">{{ c.abmil_f1 }}</td><td class="num">—</td></tr>
+<tr><td>Fusion + probe, all clinical variables</td><td class="num">{{ c.fusion_late_f1 }}</td><td class="num">{{ c.probe_her2_recall }}</td></tr>
+<tr><td>Fusion refit + probe, ER/PR/HER2 removed</td><td class="num">{{ c.without_receptors }}</td><td class="num">—</td></tr>
+<tr><td>Fusion native classification head</td><td class="num">{{ c.head_f1 }}</td><td class="num">{{ c.head_her2_recall }}</td></tr>
+</tbody></table>
+<p class="caption"><b>Table 4.</b> Receptor removal refits the same family and probe on the original split; it is not merely test-time masking.
+Representation quality, receptor sensitivity and native-head behavior are distinct outcomes.</p>
+<p>Without ER/PR/HER2, fusion falls to {{ c.without_receptors }}, <b>below same-test image-only MIL</b>. A receptor-independent integration benefit is
+not supported. Receptors are biologically related PAM50 proxies and allowed clinical inputs, not prohibited molecular target copies. Their contribution
+nevertheless qualifies task interpretation. This ablation shows dependence in this system, not a causal decomposition of every gain; a receptor-only
+control and a paired interval for this specific comparison were not run.</p>
+<h3>4.2 &nbsp; The probe is not the trained classification head</h3>
+<p>Training averages the branches' class logits under unweighted cross-entropy. The native head reaches only {{ c.head_f1 }} F1 and recalls none of
+{{ c.her2_test_n }} test Her2 cases. Her2 is a minority class ({{ c.her2_n }} of {{ c.labeled_n }} labeled cohort patients), so imbalance and branch-logit
+averaging are plausible contributors; their causal roles cannot be isolated from these runs.</p>
+<p>The probe fits a new standardized, regularized linear boundary on concatenated frozen latents, selecting regularization on validation. It reaches
+{{ c.fusion_late_f1 }} F1 and {{ c.probe_her2_recall }} Her2 recall, showing that the latent retains information the native decision rule fails to use.
+<b>The probe is also unweighted</b>; weighting does not explain its advantage. The native head is inadequate as a four-subtype classifier and must not
+be described using the probe's score.</p>
+</div>
+<div class="paperpage">
+<h1>5 &nbsp; What the agent learned—and failed to establish</h1>
+<h3>5.1 &nbsp; Alignment is not a uniformly mixed biological manifold</h3>
+<div class="modality figure"><img src="{{ modality_figure }}"><p class="caption"><b>Figure 2.</b> Saved RNA/ATAC tower display: fit training embeddings,
+transform test cells. Visible offsets remain; UMAP is descriptive, not a new test or selection criterion.</p></div>
+<p>The paired towers show a visible modality gap despite better retrieval. Ranking a cell's partner and merging both modality populations into a common
+manifold are different requirements. The display does not prove complete separation, but it does not justify claiming full mixing. Together with lower
+ARI and weak accessibility gains, it restricts the PBMC conclusion to alignment under the chosen retrieval criterion. Technical depth/QC remains
+predictable; one donor cannot establish donor transfer.</p>
+<p>For TCGA, source-site predictability remains a concern. A separately refitted site-held-out analysis reaches F1 {{ c.site_heldout }}; its different
+test population prevents a paired comparison with Table 4. Exploratory survival C-index is {{ c.survival_c_index }}
+(95% CI [{{ c.survival_lower }}, {{ c.survival_upper }}]; {{ c.survival_test_events }} test deaths), which does not establish prospective benefit.</p>
+<div class="clear"></div>
+<h3>5.2 &nbsp; Foundation-model and resource choices were conservative, not optimized</h3>
+<p>UNI2-h and CONCH-Z enter production comparisons alongside ImageNet. Virchow2 and MUSK only passed loading/runtime checks, without empirical comparison.
+Encoder choice reflects compatibility, feature size and compute defaults, not validation evidence that these encoders are best. Public-model pretraining
+overlap with TCGA cannot be ruled out.</p>
+<p>The cap of {{ c.tile_cap }} tiles per slide arose from two short-queue shards and a two-hour task limit. This was an operational choice, not an
+aggregate-budget necessity: the saved projection for 256 tiles is {{ c.projection_256 }} GPU-hours, while project usage was {{ c.gpu_hours_used }} of
+{{ c.gpu_hours_cap }} authorized GPU-hours. More sequential shards could retain the concurrency limit while covering more tiles. No larger-cap
+performance was measured, so its benefit remains unknown.</p>
+<p>CONCH-Z tuning genuinely updated pretrained parameters, but used only 128 training patients and four cached tiles each; inference used the first
+single cached tile. Its low scores compare unequal effective data access and capacity, not the best achievable tuned foundation model. These arms
+demonstrate execution capability, not competitive fine-tuning or superiority of frozen encoders.</p>
+<h3>5.3 &nbsp; Automation strengths, failure modes and next design changes</h3>
+<p>The agent orchestrates genuine adapters, leakage-controlled splits, validated resumes, failures, frozen representations and source-linked reports
+across different pairing structures. Synthetic fixtures exercise serialization, true/shuffled pairing, a third modality configuration and objective-sensitive
+planning. These software achievements are distinct from evidence of useful multimodal synergy.</p>
+<p>The audit exposes decision-layer weaknesses: structural noninferiority was not enforced; reused references appeared independent; a decoder label obscured
+its input; empty histories did not block interpretation; and resource settings were not revisited despite unused budget. A future agent should require
+objective-specific acceptance tests, explicit baseline identity, convergence evidence, class-wise head diagnostics and comparable training data access
+before recommending integration. These are proposed changes, <em>not evaluated repairs</em>.</p>
+<h2>6 &nbsp; Conclusion</h2>
+<p class="verdict"><b>PBMC:</b> retrieval improves, but structure-preservation and incremental RNA→ATAC prediction goals are not established.
+<b>TCGA:</b> useful frozen-latent probe performance is conditional on receptors, without clear general integration benefit; the native head fails a minority
+subtype. The unchanged automated flags say “integrate with caution.” This stricter report-level audit finds that neither experiment warrants an
+unqualified claim of successful multimodal representation learning.</p>
+</div>
+<div class="references"><h1>References</h1>
+<ol>{% for r in references %}<li value="{{ r.id }}">{{ r.citation }} <a href="{{ r.url }}">{{ r.url }}</a></li>{% endfor %}</ol></div>
+<div class="appendix"><h1>Appendix A &nbsp; Objective-dependent planning checks</h1>
+<p>These saved checks change the objective while retaining the same data profile. No alternative model is trained and no alternative held-out performance
+is claimed. Survival remains secondary in the executed TCGA experiment.</p>
+{% for demo in objective_swaps %}<h2>{{ 'PBMC: evaluation-only to label-informed planning' if loop.first else 'TCGA: subtype classification to survival planning' }}</h2>
+<table><thead><tr><th>Candidate</th><th>Original eligibility / loss</th><th>Changed eligibility / loss</th></tr></thead><tbody>
+{% for r in demo.changes %}<tr><td>{{ r.display_name }}</td><td>{{ r.before_status|replace('_',' ') }}<br>{{ r.before_loss|replace('_',' ') }}</td><td>{{ r.after_status|replace('_',' ') }}<br>{{ r.after_loss|replace('_',' ') }}</td></tr>{% endfor %}</tbody></table>{% endfor %}
+<p>The PBMC swap changes supervised-fusion eligibility and exchanges retrieval for balanced accuracy as a primary metric. The TCGA swap changes
+survival-capable candidates to Cox partial-likelihood and concordance-based planning. This demonstrates objective-sensitive rules, not correct fulfillment
+of every objective constraint; Section 3 shows the structural failure.</p>
+<h2>Reproducibility and revision boundary</h2>
+<p>This revision reads saved results, existing source and worker logs. It does not retrain, retune, recompute held-out metrics, generate new UMAP coordinates
+or change machine verdicts. Original generated dataset reports are retained. A pre-revision report is preserved locally; current numeric claims map to
+saved artifacts in the claim-source file.</p>
+<p>Source, objectives, configurations, environment locks and manifests identify the executed workflow. Shared raw data, tile features, checkpoints and
+pathology weights/derivatives are not redistributed. All downstream files remain inside Agent3. No external LLM was used in the reproducible analysis
+or templated reporting core.</p>
+</div>
+<div class="appendix"><h1>Appendix B &nbsp; Audit trail and interpretation corrections</h1>
+<table><thead><tr><th>Finding</th><th>Evidence inspected</th><th>Interpretive correction</th></tr></thead><tbody>
+<tr><td>Receptor dependence</td><td>Existing receptor-removal refit and image-only MIL probe</td><td>Place receptor-free fusion beside MIL; no independent benefit is established.</td></tr>
+<tr><td>Native-head failure</td><td>Native-head / probe test records, neural loss and probe fitting</td><td>Different classifiers; both unweighted. Minority-class failure remains explicit.</td></tr>
+<tr><td>MultiVI optimization</td><td>Three worker logs, empty curves, custom validation callback</td><td>Short pilot; adequate convergence unverified. Do not infer method inferiority.</td></tr>
+<tr><td>Noncanonical WNN</td><td>Muon graph, diffusion coordinates, interpolation and R cross-check</td><td>Adapter performance does not rank canonical Seurat WNN.</td></tr>
+<tr><td>Objective mismatch</td><td>Objective, selector, clustering evidence and modality display</td><td>Retrieval improves while structure deteriorates; full objective unmet.</td></tr>
+<tr><td>Decoder label</td><td>Baseline encoder's requested modality and RNA→ATAC caller</td><td>The ATAC-named decoder uses RNA. Collapse duplicates.</td></tr>
+<tr><td>Repeated retrieval reference</td><td>Identical saved alignment records for three feature references</td><td>One ridge map, not multiple independent baselines.</td></tr>
+<tr><td>Foundation-model scope</td><td>Encoder selection, throughput and bounded tuning code</td><td>Two production pathology encoders; sparse coverage and unequal data access.</td></tr>
+</tbody></table>
+<h2>Machine-readable sources</h2>
+<p class="small">Experimental summaries: <code>outputs/&lt;dataset&gt;/evidence_bundle/pilot_summary.json</code>;
+<code>evaluation/evidence.json</code>; <code>downstream/results.json</code>; <code>verdict.json</code>.
+Resource evidence: TCGA <code>features/encoder_selection.json</code> and <code>logs/gpu_ledger.json</code>.
+Code/log audit hashes: <code>reports/report_audit_context.json</code>.
+Per-number provenance: <code>reports/report_claim_sources.json</code>.
+Page/source acceptance: <code>reports/project_report_validation.json</code>.
+Objective swaps: <code>outputs/robustness/objective_swap_summary.json</code>.</p>
+<p>Validation and test columns remain distinct; missing test results are never imputed from pilots. The report's stricter interpretation is an editorial
+assessment of frozen evidence, not a changed selection rule, new hypothesis test or post-hoc model search.</p>
+</div>
+</body></html>

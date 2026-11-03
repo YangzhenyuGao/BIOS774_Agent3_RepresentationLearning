@@ -1,0 +1,33 @@
+base: base.yaml
+dataset_id: tcga_brca
+output: outputs/tcga_brca
+report_name: generated_report_2
+modalities:
+  - modality_id: histology
+    modality_type: wsi_image
+    path: /vast/som/yunligrp/users/ygao/imaging_fi/data/TCGA-BRCA/raw/wsi
+    format: svs_manifest
+    pairing_key: patient_id
+    parameters:
+      manifest: /vast/som/yunligrp/users/ygao/imaging_fi/data/TCGA-BRCA/provenance/manifests/wsi/TCGA-BRCA.diagnostic.all.tsv
+  - modality_id: clinical
+    modality_type: tabular_clinical
+    path: /vast/som/yunligrp/users/ygao/imaging_fi/data/TCGA-BRCA/raw/clinical/TCGA-BRCA.with_followups.json
+    format: gdc_xena
+    pairing_key: patient_id
+    parameters:
+      xena: /vast/som/yunligrp/users/ygao/imaging_fi/data/TCGA-BRCA/annotations/pam50/BRCA_clinicalMatrix.tsv
+      audit: /vast/som/yunligrp/users/ygao/imaging_fi/data/TCGA-BRCA/processed/clinical/clinical_revision_audit.json
+labels: {column: PAM50Call_RNAseq, quality: molecular_reference}
+encoders: [UNI2-h, CONCH-Z, imagenet_resnet18]
+preprocessing:
+  target_mpp: 0.5
+  tile_size: 224
+  provisional_tile_cap: 128
+  tile_cap_options: [64, 128, 256]
+  tissue_fraction_min: 0.6
+  blur_variance_min: 30
+  stain_normalization: false
+  latent_dim: 32
+  clinical_columns: [age, stage, histological_type, er, pr, her2]
+  clinical_sensitivity_columns: [age, stage, histological_type]

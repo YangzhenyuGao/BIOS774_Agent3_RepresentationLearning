@@ -1,0 +1,707 @@
+{
+  "dataset": "tcga_brca",
+  "selected_model": "fusion_late",
+  "primary_metrics": [
+    "macro_f1",
+    "balanced_accuracy"
+  ],
+  "frozen_machine_verdict": "integrate_with_caution",
+  "pilot_summary": [
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 5.930696838845809,
+      "model": "abmil",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.695623457426942,
+      "validation_macro_f1_sd": 0.011922185120701121,
+      "validation_recall_at_10": null
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 4.853852167725563,
+      "model": "clip_dual",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.7106546455416254,
+      "validation_macro_f1_sd": 0.03079847743751303,
+      "validation_recall_at_10": 0.33749999999999997
+    },
+    {
+      "attempted": 1,
+      "failure": "",
+      "fit_seconds": 0.08871636353433132,
+      "model": "concatenation",
+      "successful": 1,
+      "validation_macro_f1_mean": 0.7199125264140744,
+      "validation_macro_f1_sd": null,
+      "validation_recall_at_10": 0.321875
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 48.88853294340273,
+      "model": "fm_image_text",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.4528017345338042,
+      "validation_macro_f1_sd": 0.005902582623047594,
+      "validation_recall_at_10": 0.14479166666666665
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 33.975895357628666,
+      "model": "fm_last_block",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.5925476995808799,
+      "validation_macro_f1_sd": 0.02551023884191856,
+      "validation_recall_at_10": 0.05416666666666667
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 5.791445921485622,
+      "model": "fusion_early",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.7293155777985749,
+      "validation_macro_f1_sd": 0.020253491629118964,
+      "validation_recall_at_10": 0.06145833333333334
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 5.576721113796036,
+      "model": "fusion_gated",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.7227917427935986,
+      "validation_macro_f1_sd": 0.01429274666564806,
+      "validation_recall_at_10": 0.125
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 5.829237577194969,
+      "model": "fusion_late",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.7591734787385755,
+      "validation_macro_f1_sd": 0.011631181001474067,
+      "validation_recall_at_10": 0.05416666666666667
+    },
+    {
+      "attempted": 1,
+      "failure": "",
+      "fit_seconds": 0.01967545785009861,
+      "model": "histology_conch",
+      "successful": 1,
+      "validation_macro_f1_mean": 0.6054719435154218,
+      "validation_macro_f1_sd": null,
+      "validation_recall_at_10": 0.2875
+    },
+    {
+      "attempted": 1,
+      "failure": "",
+      "fit_seconds": 0.019600676372647285,
+      "model": "histology_imagenet",
+      "successful": 1,
+      "validation_macro_f1_mean": 0.5350079744816587,
+      "validation_macro_f1_sd": null,
+      "validation_recall_at_10": 0.284375
+    },
+    {
+      "attempted": 3,
+      "failure": "",
+      "fit_seconds": 19.9246367632101,
+      "model": "simclr",
+      "successful": 3,
+      "validation_macro_f1_mean": 0.6917854431752323,
+      "validation_macro_f1_sd": 0.010490142944919487,
+      "validation_recall_at_10": 0.2739583333333333
+    },
+    {
+      "attempted": 1,
+      "failure": "",
+      "fit_seconds": 0.021797001361846924,
+      "model": "view_a",
+      "successful": 1,
+      "validation_macro_f1_mean": 0.6654671372003248,
+      "validation_macro_f1_sd": null,
+      "validation_recall_at_10": 0.321875
+    },
+    {
+      "attempted": 1,
+      "failure": "",
+      "fit_seconds": 0.022769257426261902,
+      "model": "view_b",
+      "successful": 1,
+      "validation_macro_f1_mean": 0.5677364954940542,
+      "validation_macro_f1_sd": null,
+      "validation_recall_at_10": 0.321875
+    }
+  ],
+  "test_models": {
+    "abmil": {
+      "classification": {
+        "balanced_accuracy": 0.6444700460829493,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            12,
+            1,
+            6,
+            2
+          ],
+          [
+            1,
+            7,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            50,
+            10
+          ],
+          [
+            3,
+            2,
+            9,
+            14
+          ]
+        ],
+        "macro_f1": 0.644681150495104,
+        "per_class_recall": {
+          "Basal": 0.5714285714285714,
+          "Her2": 0.7,
+          "LumA": 0.8064516129032258,
+          "LumB": 0.5
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": 0.11701490295947402,
+        "nmi": 0.2660338450604051
+      },
+      "alignment": {},
+      "end_to_end_head": {
+        "macro_f1": 0.5322440182905299,
+        "balanced_accuracy": 0.5203917050691245,
+        "per_class_recall": {
+          "Basal": 0.5714285714285714,
+          "Her2": 0.1,
+          "LumA": 0.8387096774193549,
+          "LumB": 0.5714285714285714
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      }
+    },
+    "concatenation": {
+      "classification": {
+        "balanced_accuracy": 0.6668970814132104,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            14,
+            3,
+            3,
+            1
+          ],
+          [
+            2,
+            6,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            47,
+            14
+          ],
+          [
+            1,
+            1,
+            8,
+            18
+          ]
+        ],
+        "macro_f1": 0.6664438355285708,
+        "per_class_recall": {
+          "Basal": 0.6666666666666666,
+          "Her2": 0.6,
+          "LumA": 0.7580645161290323,
+          "LumB": 0.6428571428571429
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": 0.09934592721193741,
+        "nmi": 0.23780408893276989
+      },
+      "alignment": {
+        "candidate_pool_size": 160,
+        "foscttm": 0.1901729559748428,
+        "retrieval_recall_at_10": 0.35
+      }
+    },
+    "fusion_late": {
+      "classification": {
+        "balanced_accuracy": 0.7139784946236558,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            16,
+            2,
+            2,
+            1
+          ],
+          [
+            1,
+            7,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            51,
+            10
+          ],
+          [
+            1,
+            0,
+            11,
+            16
+          ]
+        ],
+        "macro_f1": 0.7228600347021399,
+        "per_class_recall": {
+          "Basal": 0.7619047619047619,
+          "Her2": 0.7,
+          "LumA": 0.8225806451612904,
+          "LumB": 0.5714285714285714
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": 0.11881837005649112,
+        "nmi": 0.28297045318439346
+      },
+      "alignment": {
+        "candidate_pool_size": 160,
+        "foscttm": 0.4360062893081761,
+        "retrieval_recall_at_10": 0.09375
+      },
+      "end_to_end_head": {
+        "macro_f1": 0.4824187255354534,
+        "balanced_accuracy": 0.4985599078341013,
+        "per_class_recall": {
+          "Basal": 0.5714285714285714,
+          "Her2": 0.0,
+          "LumA": 0.8870967741935484,
+          "LumB": 0.5357142857142857
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      }
+    },
+    "histology_conch": {
+      "classification": {
+        "balanced_accuracy": 0.5567012288786483,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            8,
+            1,
+            8,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            52,
+            7
+          ],
+          [
+            3,
+            2,
+            6,
+            17
+          ]
+        ],
+        "macro_f1": 0.5704218319775045,
+        "per_class_recall": {
+          "Basal": 0.38095238095238093,
+          "Her2": 0.4,
+          "LumA": 0.8387096774193549,
+          "LumB": 0.6071428571428571
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": 0.025910403200114902,
+        "nmi": 0.09560207929013541
+      },
+      "alignment": {
+        "candidate_pool_size": 160,
+        "foscttm": 0.20978773584905663,
+        "retrieval_recall_at_10": 0.303125
+      }
+    },
+    "histology_imagenet": {
+      "classification": {
+        "balanced_accuracy": 0.4191436251920123,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            5,
+            3,
+            8,
+            5
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            1,
+            48,
+            12
+          ],
+          [
+            4,
+            2,
+            9,
+            13
+          ]
+        ],
+        "macro_f1": 0.4214236769976808,
+        "per_class_recall": {
+          "Basal": 0.23809523809523808,
+          "Her2": 0.2,
+          "LumA": 0.7741935483870968,
+          "LumB": 0.4642857142857143
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": -0.005731589531590465,
+        "nmi": 0.06886542941476567
+      },
+      "alignment": {
+        "candidate_pool_size": 160,
+        "foscttm": 0.25334119496855345,
+        "retrieval_recall_at_10": 0.25
+      }
+    },
+    "view_a": {
+      "classification": {
+        "balanced_accuracy": 0.5793970814132104,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            11,
+            4,
+            4,
+            2
+          ],
+          [
+            1,
+            5,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            47,
+            14
+          ],
+          [
+            2,
+            3,
+            8,
+            15
+          ]
+        ],
+        "macro_f1": 0.5794292020719262,
+        "per_class_recall": {
+          "Basal": 0.5238095238095238,
+          "Her2": 0.5,
+          "LumA": 0.7580645161290323,
+          "LumB": 0.5357142857142857
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": -0.008925193795964428,
+        "nmi": 0.0625384990336359
+      },
+      "alignment": {
+        "candidate_pool_size": 160,
+        "foscttm": 0.1901729559748428,
+        "retrieval_recall_at_10": 0.35
+      }
+    },
+    "view_b": {
+      "classification": {
+        "balanced_accuracy": 0.614957757296467,
+        "classes": [
+          "Basal",
+          "Her2",
+          "LumA",
+          "LumB"
+        ],
+        "confusion_matrix": [
+          [
+            16,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            6,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            57,
+            4
+          ],
+          [
+            0,
+            0,
+            23,
+            5
+          ]
+        ],
+        "macro_f1": 0.6202359346642469,
+        "per_class_recall": {
+          "Basal": 0.7619047619047619,
+          "Her2": 0.6,
+          "LumA": 0.9193548387096774,
+          "LumB": 0.17857142857142858
+        },
+        "per_class_support": {
+          "Basal": 21,
+          "Her2": 10,
+          "LumA": 62,
+          "LumB": 28
+        }
+      },
+      "structure": {
+        "ari": 0.09864068914632378,
+        "nmi": 0.2634756934849092
+      },
+      "alignment": {
+        "candidate_pool_size": 160,
+        "foscttm": 0.1901729559748428,
+        "retrieval_recall_at_10": 0.35
+      }
+    }
+  },
+  "source_sha256": {
+    "evaluation/evidence.json": "c1a4050d45d30fb5f28ef462859601d97f4b0fc52af8a54604ddf16a0c9c23c4",
+    "downstream/results.json": "e2dbc2511b0bf1c800b320a0c21c15e8e94ff00bb38daee52f033e8570e4f68c",
+    "verdict.json": "522fef7b57e94f27859804811e9481a522333f44f50c911095505499e8e90b4c",
+    "evidence_bundle/pilot_summary.json": "33c4b498aa44bf16a3d379133fc5ee4d0cb834eea7ccf8f0ac0bea44e9239a0d"
+  },
+  "refitted_sensitivities": {
+    "without_receptors": {
+      "accuracy": 0.6694214876033058,
+      "balanced_accuracy": 0.5626536098310292,
+      "classes": [
+        "Basal",
+        "Her2",
+        "LumA",
+        "LumB"
+      ],
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          52,
+          8
+        ],
+        [
+          2,
+          2,
+          9,
+          15
+        ]
+      ],
+      "macro_f1": 0.5826711419095533,
+      "ovr_auroc": 0.8474966171357643,
+      "per_class_auroc": {
+        "Basal": 0.8871428571428571,
+        "Her2": 0.8900900900900901,
+        "LumA": 0.8665937670858392,
+        "LumB": 0.7461597542242704
+      },
+      "per_class_recall": {
+        "Basal": 0.47619047619047616,
+        "Her2": 0.4,
+        "LumA": 0.8387096774193549,
+        "LumB": 0.5357142857142857
+      },
+      "per_class_support": {
+        "Basal": 21,
+        "Her2": 10,
+        "LumA": 62,
+        "LumB": 28
+      },
+      "worst_class_recall": 0.4
+    },
+    "site_held_out": {
+      "accuracy": 0.6721311475409836,
+      "balanced_accuracy": 0.6543134780482597,
+      "classes": [
+        "Basal",
+        "Her2",
+        "LumA",
+        "LumB"
+      ],
+      "confusion_matrix": [
+        [
+          23,
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          11,
+          7,
+          6
+        ],
+        [
+          0,
+          0,
+          58,
+          13
+        ],
+        [
+          0,
+          1,
+          27,
+          31
+        ]
+      ],
+      "macro_f1": 0.6786483951118097,
+      "ovr_auroc": 0.8596277668759214,
+      "per_class_auroc": {
+        "Basal": 0.9878917378917379,
+        "Her2": 0.8633023027927487,
+        "LumA": 0.8210513078470826,
+        "LumB": 0.766265718972116
+      },
+      "per_class_recall": {
+        "Basal": 0.8518518518518519,
+        "Her2": 0.4230769230769231,
+        "LumA": 0.8169014084507042,
+        "LumB": 0.5254237288135594
+      },
+      "per_class_support": {
+        "Basal": 27,
+        "Her2": 26,
+        "LumA": 71,
+        "LumB": 59
+      },
+      "worst_class_recall": 0.4230769230769231
+    }
+  },
+  "audited_interpretation": "Probe utility depends on receptor covariates; receptor-free fusion is below image-only MIL on the same test set. The native head has zero Her2 recall. General integration benefit is not established."
+}

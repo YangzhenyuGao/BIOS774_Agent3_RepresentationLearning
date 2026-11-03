@@ -1,0 +1,14 @@
+seed: 774
+split_fractions: [0.7, 0.15, 0.15]
+budget:
+  gpu_hours_cap: 48
+  concurrent_gpus: 2
+  pilot_seconds: 600
+  pilot_epochs: 50
+  final_epochs: 150
+  seeds: [774, 775, 776]
+  max_shortlist: 2
+bootstrap_replicates: 500
+equivalence_margin: 0.01
+parallel_slide_readers: 2
+reporting_mode: deterministic

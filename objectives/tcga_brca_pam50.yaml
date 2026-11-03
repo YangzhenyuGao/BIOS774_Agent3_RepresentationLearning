@@ -1,0 +1,27 @@
+objective_id: tcga_pam50_patient
+original_text: >-
+  Learn a patient-level joint representation of diagnostic H&E whole-slide images
+  and baseline clinical variables that predicts PAM50 intrinsic subtype on held-out
+  patients, quantifies whether each modality adds information, and assesses
+  exploratory overall-survival stratification and subtype-consistent retrieval.
+  Training labels may be used.
+objective_types: [supervised_prediction, patient_similarity]
+target_variable: PAM50Call_RNAseq
+label_source_and_quality:
+  quality: molecular_reference
+  source: UCSC Xena BRCA_clinicalMatrix primary-tumor RNA-seq PAM50
+allowed_supervision: train_labels
+modalities_required: [histology, clinical]
+unit_of_analysis: patient
+downstream_tasks: [classification, retrieval, survival]
+primary_metrics: [macro_f1, balanced_accuracy]
+secondary_metrics: [ovr_auroc, worst_class_recall, c_index, retrieval_precision_at_5]
+clinical_inputs_and_exclusions:
+  inputs: [age, stage, histological_type, er, pr, her2]
+  exclusions: [molecular_fields, PAM50, outcomes, followup, post_diagnosis_treatment]
+  missingness_indicators: true
+sensitivity_analyses: [without_receptors, missing_modality, site_held_out, luminal_a_vs_b, seed_stability]
+prohibited_uses:
+  - Exploratory retrospective results do not establish prospective clinical benefit.
+  - Site-confounded embeddings do not support cross-site generalization claims.
+

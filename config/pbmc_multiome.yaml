@@ -1,0 +1,32 @@
+base: base.yaml
+dataset_id: pbmc_multiome
+output: outputs/pbmc_multiome
+report_name: generated_report_1
+modalities:
+  - modality_id: rna
+    modality_type: count_matrix_gene
+    path: /vast/som/yunligrp/users/ygao/BIOS774Agent/data/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5
+    format: 10x_h5
+    pairing_key: barcode
+    parameters: {feature_type: Gene Expression}
+  - modality_id: atac
+    modality_type: count_matrix_peak
+    path: /vast/som/yunligrp/users/ygao/BIOS774Agent/data/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5
+    format: 10x_h5
+    pairing_key: barcode
+    parameters: {feature_type: Peaks}
+labels:
+  path: /vast/som/yunligrp/users/ygao/BIOS774Agent/data/pbmc_granulocyte_sorted_10k/annotations/pbmc_10x_annotation_FixFlip.csv
+  column: celltype
+  quality: curated
+  provenance: /vast/som/yunligrp/users/ygao/BIOS774Agent/data/pbmc_granulocyte_sorted_10k/annotations/LABEL_PROVENANCE.json
+  missing_label: filtered
+preprocessing:
+  donor_count: 1
+  n_hvg: 3000
+  n_peaks: 30000
+  latent_dim: 32
+  qc_mad: 4
+  doublet_method: scrublet
+  metrics_path: /vast/som/yunligrp/users/ygao/BIOS774Agent/data/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_per_barcode_metrics.csv
+  peak_annotation: /vast/som/yunligrp/users/ygao/BIOS774Agent/data/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_atac_peak_annotation.tsv

@@ -1,0 +1,24 @@
+objective_id: pbmc_joint_structure_alignment
+original_text: >-
+  Learn a joint RNA+ATAC cell representation that preserves PBMC cell-type structure
+  at least as well as the better single modality, aligns the modalities so that a
+  cell's RNA profile retrieves its own ATAC profile, and supports cross-modal
+  prediction of chromatin accessibility from expression. Cell-type labels may be
+  used for evaluation only, not for fitting the primary representation.
+objective_types: [cell_state_structure, cross_modal_alignment, cross_modal_prediction]
+target_variable: celltype
+label_source_and_quality:
+  quality: curated
+  source: Satija lab FixFlip annotations
+  caveat: Manual annotation of WNN clusters; WNN has a structural advantage.
+allowed_supervision: evaluation_only
+modalities_required: [rna, atac]
+unit_of_analysis: cell
+downstream_tasks: [classification, clustering, retrieval, cross_modal_prediction]
+primary_metrics: [macro_f1, retrieval_recall_at_10]
+secondary_metrics: [ari, nmi, balanced_accuracy, foscttm, cross_modal_auprc, neighborhood_overlap]
+inapplicable_metrics: {c_index: No survival endpoint; single healthy donor.}
+sensitivity_analyses: [coarse_labels, depth_confounding, modality_ablation, seed_stability]
+prohibited_uses:
+  - Single-donor cell-level results do not support donor generalization.
+  - Agreement with WNN-derived labels is not independent evidence of biological superiority to WNN.

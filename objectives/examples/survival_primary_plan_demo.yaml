@@ -1,0 +1,64 @@
+objective_id: survival_primary_plan_demo
+original_text: Plan a survival-primary representation workflow; outcomes are targets
+  only; plan only.
+objective_types:
+- survival_risk
+target_variable: overall_survival
+label_source_and_quality:
+  quality: molecular_reference
+  source: UCSC Xena BRCA_clinicalMatrix primary-tumor RNA-seq PAM50
+allowed_supervision: train_labels
+modalities_required:
+- histology
+- clinical
+unit_of_analysis: patient
+downstream_tasks:
+- survival
+- retrieval
+primary_metrics:
+- c_index
+secondary_metrics:
+- ovr_auroc
+- worst_class_recall
+- c_index
+- retrieval_precision_at_5
+inapplicable_metrics: {}
+clinical_inputs_and_exclusions:
+  inputs:
+  - age
+  - stage
+  - histological_type
+  - er
+  - pr
+  - her2
+  exclusions:
+  - molecular_fields
+  - PAM50
+  - outcomes
+  - followup
+  - post_diagnosis_treatment
+  missingness_indicators: true
+sensitivity_analyses:
+- without_receptors
+- missing_modality
+- site_held_out
+- luminal_a_vs_b
+- seed_stability
+compute_budget:
+  gpu_hours_cap: 48.0
+  concurrent_gpus: 2
+  pilot_seconds: 600
+  pilot_epochs: 50
+  final_epochs: 150
+  seeds:
+  - 774
+  - 775
+  - 776
+  max_shortlist: 2
+prohibited_uses:
+- Exploratory retrospective results do not establish prospective clinical benefit.
+- Site-confounded embeddings do not support cross-site generalization claims.
+parser_mode: structured
+parser_confidence: 1.0
+ambiguities: []
+clarification_needed: false

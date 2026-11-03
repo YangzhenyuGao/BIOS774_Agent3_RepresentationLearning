@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/YangzhenyuGao/BIOS774_Agent3_RepresentationLearning",
+  "branch": "main",
+  "studies": [
+    {"title": "Study 1: PBMC RNA + ATAC", "path": "reports/generated_report_1.pdf", "url": "https://github.com/YangzhenyuGao/BIOS774_Agent3_RepresentationLearning/blob/main/reports/generated_report_1.pdf"},
+    {"title": "Study 2: TCGA-BRCA histology + clinical", "path": "reports/generated_report_2.pdf", "url": "https://github.com/YangzhenyuGao/BIOS774_Agent3_RepresentationLearning/blob/main/reports/generated_report_2.pdf"}
+  ]
+}
